@@ -1,0 +1,230 @@
+/* Small device: upto 576 px 
+Medium Device: 576px to 992 px 
+Large Device: above 993 px  */
+
+/* Small device: upto 576 px */
+@media screen and (max-width: 576px) {
+    body {
+      max-width: 98%;
+      margin: 0 auto;
+    }
+    .navbar {
+      width: 95%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+    .brand-name {
+      font-size: 2rem;
+    }
+    .navbar-btn {
+      display: none;
+    }
+    .ham-burgeer {
+      display: block;
+    }
+    .banner-section {
+      flex-direction: column;
+      width: 95%;
+      margin: 0 auto;
+    }
+    .banner-title {
+      font-size: 3rem;
+      margin-top: 50px;
+    }
+    #banner-btn {
+      margin-right: 20px;
+      margin-bottom: 10px;
+    }
+    .tutorial {
+      width: 180px;
+      top: 45%;
+      left: 2%;
+    }
+    .tutorial-1 {
+      width: 150px;
+      top: 10%;
+      left: 55%;
+    }
+    #circle {
+      display: none;
+    }
+  
+    .habit-title {
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .habit-images {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+    .run-section {
+      flex-direction: column;
+      width: 95%;
+      margin: 0 auto;
+      padding: 30px;
+    }
+    .run-section-title {
+      font-size: 2.3rem;
+    }
+    #run-section-btn {
+      font-size: 0.8rem;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .training-section {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    .training-title {
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    .training-row1,
+    .training-row2 {
+      grid-template-columns: 1fr 1fr 0fr;
+    }
+    #training-img1 {
+      display: hidden;
+    }
+  
+    .bmi-calculator-title {
+      font-size: 2rem;
+    }
+    .bmi-calculator-subtitle br,
+    .team-section-subtitle br {
+      display: none;
+    }
+    .bmi-calculator-form {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+    }
+    .bmi-form form {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+    #activity-factor {
+      grid-column: 1 / span 1;
+    }
+    .calculator-chart,
+    .calculate-bmi-form {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 5px;
+    }
+    .bmi-calculator {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .calculator-chart-title {
+      font-size: 1.5rem;
+      white-space: nowrap;
+    }
+    .bmi-form form {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 10px;
+    }
+    #calculate-btn {
+      width: 70%;
+    }
+    .team-section {
+      width: 95%;
+      margin: 0 auto;
+    }
+    .team-section-title {
+      font-size: 1.8rem;
+    }
+    .team-section-subtitle {
+      font-size: 0.5rem;
+    }
+    .team-section-card {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .social-section {
+      height: 150px;
+      margin-top: 30px;
+    }
+    .youtube-title,
+    .update-text {
+      font-size: 1.5rem;
+    }
+    .youtube-subtitle {
+      font-size: 0.8rem;
+    }
+    .subscribe-btn {
+      margin: 10px;
+      border-radius: 5px;
+      font-size: 1rem;
+      opacity: 80%;
+    }
+  
+    .footer-section {
+      width: 90%;
+      margin: 0 auto;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      align-items: start;
+      justify-items: left;
+      padding: 0px;
+      margin-top: 50px;
+      padding-top: 30px;
+    }
+    .hr-line {
+      margin-top: 50px;
+    }
+  }
+  
+  /* Medium Device: 576px to 992 px  */
+  
+  @media screen and (min-width: 576px) and (max-width: 992px) {
+    body {
+      max-width: 95%;
+      margin: 0 auto;
+    }
+    .navbar {
+      width: 95%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+    .banner-section {
+      flex-direction: column;
+      width: 95%;
+      margin: 0 auto;
+    }
+    .run-section-text {
+      padding: 5px;
+    }
+    .habit-images {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .bmi-calculator-form {
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      gap: 30px;
+    }
+  
+    .bmi-form-title {
+      margin-top: 50px;
+    }
+    .calculator-chart,
+    .calculate-bmi-form {
+      width: 100%;
+      
+    }
+  
+    .footer-section {
+      display: flex;
+      flex-wrap: wrap;
+      /* flex-direction: column; */
+      gap: 30px;
+      justify-items: baseline;
+    }
+    .footer-brand {
+      width: 70%;
+    }
+    .footer-get-started {
+      width: 40%;
+    }
+  }
